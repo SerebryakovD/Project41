@@ -41,8 +41,8 @@ int main() {
 	Children* child = new Children();
 	Children* child2 = new Children("Mike", "Washington", 19);
 	Children* child3 = new Children(89);
-	cout << child->getName(5) << endl;
-	cout << child->getName(10) << endl;
+	cout << child->getName() << endl;
+	cout << child->getName() << endl;
 	cout << child->getAge() << endl;
 	child->setAge(15);
 	cout << child->getAge() << endl;
